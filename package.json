@@ -1,0 +1,30 @@
+{
+    "name": "@planning.nl/eslint-config",
+    "description": "ESLint config used by our public projects",
+    "version": "1.0.0",
+    "author": "Planning.nl, Robbin Baauw",
+    "bugs": {
+        "url": "https://github.com/Planning-nl/eslint-config/issues",
+        "email": "support@planning.nl"
+    },
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^2.25.0",
+        "@typescript-eslint/parser": "^2.25.0",
+        "eslint-config-prettier": "^6.10.1",
+        "eslint-plugin-prettier": "^3.1.2",
+        "prettier": "^2.0.2",
+        "typescript": "^3.8.3"
+    },
+    "peerDependencies": {
+        "eslint": "^6.8.0"
+    },
+    "homepage": "https://github.com/Planning-nl/eslint-config#readme",
+    "keywords": [],
+    "license": "apache",
+    "repository": "github:Planning-nl/eslint-config",
+    "scripts": {
+        "build": "",
+        "prepare": "npm run build",
+        "version": "npm run lint"
+    }
+}
