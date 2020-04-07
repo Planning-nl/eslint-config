@@ -28,6 +28,7 @@ module.exports = {
         "@typescript-eslint/no-this-alias": "off",
         "@typescript-eslint/explicit-member-accessibility": "off",
         "@typescript-eslint/interface-name-prefix": "off",
+        "@typescript-eslint/no-empty-interface": "off",
         "prettier/prettier": [
             "error",
             {
