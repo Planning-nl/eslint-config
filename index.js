@@ -11,8 +11,6 @@ module.exports = {
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended",
         "prettier",
-        "prettier/@typescript-eslint",
-        "prettier/standard",
     ],
     rules: {
         "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
