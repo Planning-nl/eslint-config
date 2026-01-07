@@ -1,22 +1,22 @@
 {
     "name": "@planning.nl/eslint-config",
     "description": "ESLint config used by our public projects",
-    "version": "1.0.9",
-    "author": "Planning.nl, Robbin Baauw",
+    "version": "2.0.0",
+    "author": "Planning.nl",
     "bugs": {
         "url": "https://github.com/Planning-nl/eslint-config/issues",
         "email": "support@planning.nl"
     },
     "dependencies": {
-        "@typescript-eslint/eslint-plugin": "^5.8.0",
-        "@typescript-eslint/parser": "^5.8.0",
-        "eslint-config-prettier": "^8.3.0",
-        "eslint-plugin-prettier": "^4.0.0",
-        "prettier": "^2.5.1",
+        "@typescript-eslint/eslint-plugin": "^8.0.0",
+        "@typescript-eslint/parser": "^8.0.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-prettier": "^5.5.4",
+        "prettier": "^3.7.4",
         "typescript": "^4.5.4"
     },
     "peerDependencies": {
-        "eslint": "^8.5.0"
+        "eslint": "^9.39.1"
     },
     "homepage": "https://github.com/Planning-nl/eslint-config#readme",
     "keywords": [],
